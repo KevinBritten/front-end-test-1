@@ -1,54 +1,58 @@
 body {
-    background-color: #45957a;
+  background-color: #45957a;
 }
 
-h1, h2, label {
-    color:#83d0f2
+h1,
+h2,
+label {
+  color: #83d0f2;
 }
 
-h1,h2 {
-    text-align: center;
+h1,
+h2 {
+  text-align: center;
 }
-
 
 nav {
-   background-color:  #3ab4a6;
-   border-radius: 15px;
-   padding: 20px 10px;
-   display:flex;
-   justify-content: space-around;
-   margin-bottom: 50px;
+  background-color: #3ab4a6;
+  border-radius: 15px;
+  padding: 20px 10px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+form {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
 }
 
 input {
-    display:inline-block;
-    margin:auto;
+  margin: 0 auto 10px;
 }
 
-label{
-    float: lef
+label {
+  margin: auto;
 }
 
 .notification-badge {
-    display: inline;
-    background-color: #ff8c00;
-    color:white;
-    border-radius: 4px;
-    padding:2px 5px 3px;
-    margin-left:4px;
+  display: inline;
+  background-color: #ff8c00;
+  color: white;
+  border-radius: 4px;
+  padding: 2px 5px 3px;
+  margin-left: 4px;
 }
 
 .form-container {
-    border:1px solid #faffbd;
-    margin:0px 10px;
+  border: 1px solid #faffbd;
+  margin: 0px 10px;
 }
 
 .submit-button {
-    background-color: #00d1b2;
-    color:#ffdcb0;
-    border:none;
-    padding:10px 30px 7px;
-    margin-bottom:20px;
+  background-color: #00d1b2;
+  color: #ffdcb0;
+  border: none;
+  padding: 10px 30px 7px;
+  margin-bottom: 20px;
+  grid-column: 2;
 }
-
-
