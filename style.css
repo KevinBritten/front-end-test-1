@@ -1,0 +1,21 @@
+body {
+    background-color: #45957a;
+}
+
+h1, h2, label {
+    color:#83d0f2
+}
+
+button {
+    background-color: 00d1b2;
+    color:#ffdcb0;
+}
+
+nav {
+   background-color:  #3ab4a6;
+   border-radius: 15px;
+}
+
+.form-container {
+    border:1px solid #faffbd;
+}
