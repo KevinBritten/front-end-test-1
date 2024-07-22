@@ -6,16 +6,37 @@ h1, h2, label {
     color:#83d0f2
 }
 
-button {
-    background-color: 00d1b2;
-    color:#ffdcb0;
+h1,h2 {
+    text-align: center;
 }
+
 
 nav {
    background-color:  #3ab4a6;
    border-radius: 15px;
+   padding: 20px 10px;
+   display:flex;
+   justify-content: space-around;
+   margin-bottom: 50px;
+}
+
+input {
+    display: block;
+    margin:auto;
+}
+
+label{
+    float: lef
 }
 
 .form-container {
     border:1px solid #faffbd;
+    margin:0px 10px;
 }
+
+.submit-button {
+    background-color: 00d1b2;
+    color:#ffdcb0;
+}
+
+
