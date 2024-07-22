@@ -21,12 +21,21 @@ nav {
 }
 
 input {
-    display: block;
+    display:inline-block;
     margin:auto;
 }
 
 label{
     float: lef
+}
+
+.notification-badge {
+    display: inline;
+    background-color: #ff8c00;
+    color:white;
+    border-radius: 4px;
+    padding:2px 5px 3px;
+    margin-left:4px;
 }
 
 .form-container {
@@ -38,7 +47,7 @@ label{
     background-color: #00d1b2;
     color:#ffdcb0;
     border:none;
-    padding:10px 20px 7px;
+    padding:10px 30px 7px;
     margin-bottom:20px;
 }
 
