@@ -35,8 +35,11 @@ label{
 }
 
 .submit-button {
-    background-color: 00d1b2;
+    background-color: #00d1b2;
     color:#ffdcb0;
+    border:none;
+    padding:10px 20px 7px;
+    margin-bottom:20px;
 }
 
 
