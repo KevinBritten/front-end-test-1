@@ -15,7 +15,8 @@ h2 {
 }
 
 nav {
-  background-color: #3ab4a6;
+  /* background-color: #3ab4a6; */
+  background: linear-gradient(to bottom, #4ebcaf 30%, #3ab4a6 30%);
   border-radius: 15px;
   padding: 20px 10px;
   display: grid;
@@ -23,6 +24,7 @@ nav {
   grid-template-rows: auto auto;
   margin: 0 auto 50px;
   max-width: 540px;
+  box-shadow: #4ebcaf;
 }
 a {
   margin: 0 10px 10px;
